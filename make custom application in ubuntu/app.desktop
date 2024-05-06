@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Docker Control
+Exec=/home/yash/Desktop/docker.sh
+Icon=/usr/share/icons/dockergui.png
+Terminal=true
+
