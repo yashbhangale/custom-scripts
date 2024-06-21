@@ -64,6 +64,12 @@ sudo apt install -y vlc
 # Install htop
 sudo apt install -y htop
 
+# Install nala (replacement of apt)
+sudo apt install nala
+
+# Install timeshift (for the backup of the ubuntu system)
+sudo apt install timeshift
+
 # Install and configure GNOME extensions (ddterm, etc.)
 sudo apt install -y gnome-shell-extension-ddterm
 gnome-shell-extension-tool -e ddterm@amezin.github.com
@@ -105,4 +111,6 @@ sudo docker run -d --name=jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/v
 # Clean up
 sudo apt autoremove -y
 
-echo "Installation of all necessary software is complete. Please restart your system to apply all changes."
+echo "Installation of all necessary software is complete. Please restart your system to apply all changes.
+
+"
