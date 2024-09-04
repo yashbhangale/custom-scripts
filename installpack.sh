@@ -70,6 +70,8 @@ sudo apt install nala
 # Install timeshift (for the backup of the ubuntu system)
 sudo apt install timeshift
 
+sudo apt install gnome-shell-extension-manager
+
 # Install and configure GNOME extensions (ddterm, etc.)
 sudo apt install -y gnome-shell-extension-ddterm
 gnome-shell-extension-tool -e ddterm@amezin.github.com
